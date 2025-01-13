@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(40, 36, 36);
+}
+
+
+.left{
+    /* border: 2px solid red; */
+    margin-right: 1155px;
+    margin-left: 200px;
+}
+
+.left h1{
+    color:#FD6F00;
+    /* font-family: "Playwrite NZ", serif; */
+    padding: 10px;
+    margin-left: 4px;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 47px;
+}
+
+.mid{
+    /* border: 2px solid green; */
+    margin-left: 387px;
+    margin-right: 460px;
+    /* margin-bottom: 227px; */
+    margin-top: -123px;
+    padding: 17px;
+    
+}
+
+.mid ul li{
+    margin:0 15px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.mid ul li a{
+    text-decoration: none;
+    padding: 2px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-size: 23px;
+    font-family: "Playwrite NZ", serif
+}
+
+.mid ul li a:hover{
+    color: pink;
+}
+
+.right{
+    /* border: 2px solid blue; */
+    margin-left: 1089px;
+    margin-right: 200px;
+    text-align: center;
+    margin-top: -90px;
+    padding: 17px;
+    background-color: #FD6F00;
+}
+
+.right button{
+    font-size: 24px;
+    background-color: #fd6f00;
+    color: white;
+    border: #fd6f00;
+}
+
+.container-left{
+    /* border: 2px solid green; */
+    margin-right:  664px;
+    margin-top: 118px;
+    margin-left: 200px;
+    margin-bottom: 25px;
+}
+
+.container-right{
+    /* border: 2px solid blue; */
+    margin-left: 821px;
+    margin-right: 200px;
+    margin-top: -541px;
+}
+
+.container-right .mypic{
+    height: 440px;
+    width: 416.75px;
+    padding: 32px;
+    
+}
+
+.text{
+    color:white;
+    padding: 10px;
+}
+
+.text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #ff7700;
+}
+
+.text h3 span {
+    color: #ff7700;
+}
+
+.text p {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #bbb;
+}
+.skills {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.skills span {
+    margin-right: 15px;
+}
+
+.button2 {
+    margin: 20px 0;
+    border: 2px solid white;
+    margin-right: 359px;
+    padding: 17px;
+    border-radius: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 2px solid #ff7700;
+    color: #ff7700;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    /* border: 2px solid ; */
+}
+
+.btn2.hire-me{
+    padding: 10px 20px;
+    margin-right: 10px;
+    /* border: 2px solid #ff7700; */
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    /* border: 2px solid white; */
+}
+
+.btn:hover {
+    background-color: #ff7700;
+    color: #fff;
+}
+
+.portfolio {
+    background-color: #ff7700;
+    color: #fff;
+    
+}
+
+.social-links {
+    margin: 20px 0;
+    padding: 4px;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.scrolling{
+    margin-top: -22px;
+    /* border: 2px solid red; */
+    margin-left: 196px;
+    background-color: rgb(0, 0, 0);
+}
+
+.scrolling span{
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    position: absolute;
+    /* margin: auto; */
+    text-align: center;
+}
+.About{
+    
+}
+.about-us-left{
+    border: 2px solid green;
+}
+
+.about-us-right{
+    border: 2px solid blue;
+}
