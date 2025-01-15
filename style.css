@@ -81,13 +81,21 @@ body {
   /* border: 2px solid blue; */
   margin-left: 821px;
   margin-right: 200px;
-  margin-top: -541px;
+  margin-top: -496px;
+  /* background: linear-gradient(45deg, #ff7e5f, #feb47b); */
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+  border: 4px solid  #f38f43;
 }
 
 .container-right .mypic {
   height: 440px;
   width: 416.75px;
   padding: 32px;
+  margin-bottom: -30px;
 }
 
 .text {
@@ -321,29 +329,83 @@ body {
 
   .awards{
     background-color: rgb(40, 36, 36);
+    margin-top: 148px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   .award-first{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-align: center;
+    width: 541px;
+    /* position: relative;
+    justify-content: center; */
+    width: 414px;
+    margin-left: 350px;
+  }
+  .award-first h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .award-first p{
+    color: #FFFFFF80;
   }
 
   .award-second{
-    border: 2px solid blue;
-    background-color: black;
+    /* border: 2px solid blue; */
+    background-color: #000000;
+    padding: 50px;
   }
+  .award-second p{
+color: #FFFFFF80;
+  }
+    .award-item-cont{
+      border: 2px solid ;
+      margin-left: 808px;
+      margin-top: 10px;
+      font-size: 18px;
+      display: block;
+      
+    }
 
+    .award-title{
+      font-size: 24px;
+    font-weight: 400;
+    }
   .awards-item h3{
     color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .date1{
+    color: #fff;
+    display: block;
+    margin-top: -109px;
+  }
+
+  .date2{
+    color: #fff;
+    display: block;
+    margin-top: -128px;
   }
 
   .award-third{
-    border: 2px solid yellow;
-    background-color: black;
+    /* border: 2px solid yellow; */
+    background-color: #000000;
+    padding: 50px;
+  }
+  .award-third p{
+    color: #FFFFFF80;
   }
 
   .award-title{
     color: #fff;
+  }
+
+  .award-para{
+    /* border: 2px solid blueviolet; */
+    margin-right: 430px;
   }
 
 
