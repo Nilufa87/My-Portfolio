@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:regular,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:regular,wght@0,300..900;1,300..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:regular,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
+
 
 body {
   margin: 0px;
@@ -408,7 +408,9 @@ color: #FFFFFF80;
     /* border: 2px solid blueviolet; */
     margin-right: 430px;
   }
-
+    .contact{
+      height: 930px;
+    }
   .upper{
     /* border: 2px solid red;
     border: 2px solid red; */
@@ -496,3 +498,53 @@ button:hover {
     background-color: #e69500;
 }
 
+.first{
+  background-color: #000000;
+  
+  text-align: center;
+  
+}
+.first h1{
+
+  color: #FD6F00;
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 70px;
+}
+
+
+.last{
+  background-color: #121212;
+  text-align: center;
+  height: 84px;
+  padding-top: 20px;
+}
+
+.last p{
+  font-size: 21px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+
+.navbar-item{
+  padding-bottom: 30px;
+}
+.navbar-item ul li{
+  display: inline-block;
+  
+  
+}
+
+.navbar-item ul li a{
+  text-decoration: none;
+  justify-content: space-between;
+  font-size: 21px;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 12px;
+}
+
+.social-links{
+  padding: 2px;
+}
