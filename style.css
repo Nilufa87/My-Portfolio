@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:regular,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:regular,wght@0,300..900;1,300..900&display=swap");
 
 body {
   margin: 0px;
@@ -25,7 +25,7 @@ body {
 
 .mid {
   /* border: 2px solid green; */
-  margin-left: 387px;
+  margin-left: 389px;
   margin-right: 460px;
   /* margin-bottom: 227px; */
   margin-top: -123px;
@@ -33,9 +33,10 @@ body {
 }
 
 .mid ul li {
-  margin: 0 15px;
-  display: inline-block;
-  text-align: center;
+  margin: 13px 15px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 49px;
 }
 
 .mid ul li a {
@@ -43,8 +44,8 @@ body {
   padding: 2px;
   justify-content: space-between;
   color: #ffffff;
-  font-weight: 400px;
-  font-size: 23px;
+  font-weight: 400;
+  font-size: 21px;
   font-family: "Playwrite NZ", serif;
 }
 
@@ -408,4 +409,90 @@ color: #FFFFFF80;
     margin-right: 430px;
   }
 
+  .upper{
+    /* border: 2px solid red;
+    border: 2px solid red; */
+    text-align: center;
+    margin-left: 575px;
+    margin-right: 575px;
+  }
+
+  .upper h5{
+      color: #FFFFFF;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 105px;
+  }
+  .upper h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  .lower{
+    /* border: 2px solid green; */
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #FD6F001A;
+  }
+
+  .form-container{
+    padding: 114.06px;
+  }
+
+  .form-container h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.form-group.inline {
+    flex-direction: row;
+    gap: 10px;
+    
+    color: #FFFFFF;
+    font-size: 16px;
+  font-weight: 500;
+}
+.form-group.block {
+    flex-direction: column;
+}
+.fileName{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    /* border: 1px solid #555; */
+    border-radius: 5px;
+    background-color: #222;
+    /* color:  #FD6F001A; */
+}
+/* input::placeholder, textarea::placeholder {
+    color: #888;
+} */
+textarea {
+    resize: inherit;
+    width: 100%;
+}
+button {
+    background-color: orange;
+    color:  #FFFFFF;
+    border: none;
+    cursor: pointer;
+    width: 183px;
+    font-size: 18px;
+  font-weight: 500;
+}
+button:hover {
+    background-color: #e69500;
+}
 
